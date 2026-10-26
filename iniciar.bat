@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 where node >nul 2>&1
 if errorlevel 1 (
-  echo Node.js nao encontrado. Consulte LEIA-ME.md.
+  echo Node.js nao encontrado. Consulte README.md.
   pause
   exit /b 1
 )
